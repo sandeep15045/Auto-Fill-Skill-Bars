@@ -1,11 +1,84 @@
 body{
     margin:0px;
+
 }
+/*body header*/
 #body-header{
-    height: 50vh;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
+    height: 65vh;
+    opacity: 0.9;
+    background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
     background-size: cover;
+    background-color: rgb(217, 217, 81);
     background-position: center;
-    opacity: 0.8;
     background-attachment: fixed;
+    padding: 1.2rem;
 }
+
+/*horizontal stlyes*/
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin:0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+.horizontal-list li a{
+    color: rgb(235, 118, 118);
+    text-decoration: none;
+  
+}
+.nav-menu li a{
+    transition: color 0.5s;
+    border-bottom: 4s;/*notworking*/
+}
+.nav-menu li a:hover{
+    color: rgb(247, 10, 10);
+    border-bottom: 1px solid red;
+}
+.text-center{
+    text-align: center;
+}
+/*Name and social Icons */
+
+#name-social-container{
+    margin-top: 12vh;
+}
+#my-name{
+    font-size:3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1.2rem;
+    color: rgb(14, 13, 13);
+    border-radius: 50%;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgb(210, 159, 159);
+    text-decoration: none;
+}
+/*about*/
+#about{
+    height: auto;
+    width:100%;
+    position: relative;
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top:-15vh;
+}
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgba(242, 242, 237, 0.627);
+}
+
