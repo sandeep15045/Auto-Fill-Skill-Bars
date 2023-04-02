@@ -8,7 +8,7 @@ body{
     opacity: 0.9;
     background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png);
     background-size: cover;
-    background-color: rgb(217, 217, 81);
+    background-color: rgb(208, 208, 202);
     background-position: center;
     background-attachment: fixed;
     padding: 1.2rem;
@@ -24,20 +24,22 @@ body{
     display: inline-block;
     margin:0px 8px 8px 0px;
     font-weight: 100;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
 }
 .horizontal-list li a{
-    color: rgb(235, 118, 118);
+    color: rgba(23, 23, 22, 0.757);
     text-decoration: none;
+    font-weight: 500;
   
 }
 .nav-menu li a{
     transition: color 0.5s;
     border-bottom: 4s;/*notworking*/
+    margin:0.6rem ;
 }
 .nav-menu li a:hover{
-    color: rgb(247, 10, 10);
-    border-bottom: 1px solid red;
+    color: rgb(11, 7, 7);
+    border-bottom: 1px solid rgb(20, 21, 21);
 }
 .text-center{
     text-align: center;
@@ -139,7 +141,7 @@ section:nth-child(2n+1){
 }
 .skills-progress{
     width: 9rem;
-    height: 2.5rem;
+    height: 1.7rem;
     background-color: lightgray;
     border-radius: 1.8rem;
     margin: 15px;
@@ -442,20 +444,37 @@ button:focus {
     background-color: #18c746;
 
 }
+.mb-1{
+    background-color: #12bdbd;
+}
+.mb-2{
+    background-color: #2e33d1;
+}
+.mb-3{
+    background-color: #c7188a;
+}
+.mb-4{
+    background-color: #c7aa18;
+}
 
 /*percen class*/
-.eight-per{
-    width: 85%;
-    height: inherit;
-}
-.nine-per{
-    width: 85%;
-    height: inherit;
-}
-.ten-per{
-    width: 85%;
-    height: inherit;
-}
 
+
+.six-per{
+    width: 60%;
+    height: inherit;
+}
+.sev-per{
+    width: 70%;
+    height: inherit;
+}
+.eig-per{
+    width: 80%;
+    height: inherit;
+}
+.nin-per{
+    width: 90%;
+    height: inherit;
+}
 
 /*contact*/
