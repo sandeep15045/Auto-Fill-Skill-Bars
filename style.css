@@ -138,10 +138,10 @@ section:nth-child(2n+1){
 
 }
 .skills-progress{
-    width: 7rem;
-    height: 1.4rem;
+    width: 9rem;
+    height: 2.5rem;
     background-color: lightgray;
-    border-radius: 0.8rem;
+    border-radius: 1.8rem;
     margin: 15px;
 }
 .skills-progress>div{
