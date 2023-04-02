@@ -44,6 +44,26 @@ body{
 .text-center{
     text-align: center;
 }
+
+.resume button{
+    background: #4d7ecd;
+    font-size: 0.8rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+.resume button:hover{
+    background: white;
+    color: #13386fe0;
+}
 /*Name and social Icons */
 
 #name-social-container{
